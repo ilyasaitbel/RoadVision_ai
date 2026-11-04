@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Training outputs (regenerated, large)
+runs/
+veylorax_dataset/
+test_assets/
+
+# ONNX in src/models is regenerable (ultralytics export) — the web app ships its own copy
+src/models/*.onnx
+
+# Notebook / OS junk
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Local deploy state
